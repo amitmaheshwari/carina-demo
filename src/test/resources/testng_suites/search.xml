@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Search API tests" skipfailedinvocationcounts="false" junit="false" parallel="tests" data-provider-thread-count="50" annotations="JDK">
+
+	<parameter name="suiteOwner" value="amaheshwari" />
+
+	<listeners>
+		<listener class-name="com.qaprosoft.zafira.listener.ZafiraListener"/>
+	</listeners>
+
+	<test name="Search test">
+		<classes>
+			<class name="com.qasoftpro.carina.webdam.SearchTest">
+				<methods>
+					<include name="testSearch"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Search Limit test">
+		<classes>
+			<class name="com.qasoftpro.carina.webdam.SearchTest">
+				<methods>
+					<include name="testSearchLimit"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Search Sort test">
+		<classes>
+			<class name="com.qasoftpro.carina.webdam.SearchTest">
+				<methods>
+					<include name="testSearchSortAsc"/>
+					<include name="testSearchSortDesc"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

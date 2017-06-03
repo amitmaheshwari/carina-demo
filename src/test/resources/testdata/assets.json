@@ -1,0 +1,61 @@
+[
+    {
+        "asset_id": "12342",
+        "text": "a lovely old man smiling",
+        "keywords": [
+            "human",
+            "happy",
+            "pink"
+        ],
+        "thumbnail": "http://interview-testing-api.webdamdb.com/images/old-man-smile.jpg",
+        "date_modified": 1494287713,
+        "date_created": 1493285713
+    },
+    {
+        "asset_id": "12341",
+        "text": "an apple a day keeps the doctor away",
+        "keywords": [
+            "apple",
+            "red",
+            "pink"
+        ],
+        "thumbnail": "http://interview-testing-api.webdamdb.com/images/apples.jpg",
+        "date_modified": 1483275313,
+        "date_created": 1494287713
+    },
+    {
+        "asset_id": "12344",
+        "text": "Esa es una bonita Manzana",
+        "keywords": [
+            "apple",
+            "cherry",
+            "red"
+        ],
+        "thumbnail": "http://interview-testing-api.webdamdb.com/images/red-apple.jpg",
+        "date_modified": 1494285713,
+        "date_created:": 1483285713
+    },
+    {
+        "asset_id": "12343",
+        "text": "This cherry red boat from 1986 is one of a kind",
+        "keywords": [
+            "boat",
+            "cherry",
+            "red"
+        ],
+        "thumbnail": "http://interview-testing-api.webdamdb.com/images/red-boat.jpg",
+        "date_modified": 1483275313,
+        "date_created": 1483285713
+    },
+    {
+        "asset_id": "12345",
+        "text": "¿Estás cansado?",
+        "keywords": [
+            "human",
+            "sleepy"
+        ],
+        "thumbnail": "http://interview-testing-api.webdamdb.com/images/sleepy-human.jpg",
+        "date_modified": 1494286666,
+        "date_created": 1483275313
+    }
+]
